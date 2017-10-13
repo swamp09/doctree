@@ -109,10 +109,10 @@ self の次の整数を返します。
 
 例:
 
-  1.next      #=> 2
-  (-1).next   #=> 0
-  1.succ      #=> 2
-  (-1).succ   #=> 0
+  1.next      # => 2
+  (-1).next   # => 0
+  1.succ      # => 2
+  (-1).succ   # => 0
 
 @see [[m:Integer#pred]]
 
@@ -310,11 +310,11 @@ self > max であれば何もしません。
 --- ord    -> Integer
 自身を返します。
 
-   10.ord    #=> 10
+   10.ord    # => 10
 #@since 1.9.1
    # String#ord
 #@end
-   ?a.ord    #=> 97
+   ?a.ord    # => 97
 
 #@since 1.9.1
 @see [[m:String#ord]]
@@ -324,8 +324,8 @@ self > max であれば何もしません。
 
 self から -1 した値を返します。
 
-   1.pred      #=> 0
-   (-1).pred   #=> -2
+   1.pred      # => 0
+   (-1).pred   # => -2
 
 @see [[m:Integer#next]]
 #@end
@@ -492,7 +492,7 @@ self の符号を反転させたものを返します。
 例:
 
   # 差
-  4 - 1 #=> 3
+  4 - 1 # => 3
 
 --- *(other) -> Numeric
 
